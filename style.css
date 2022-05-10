@@ -1,0 +1,111 @@
+body {
+    background-color: lightgray;
+    text-shadow: 0 0px 0 black;
+    margin: 0px !important;
+    background:
+        linear-gradient(to top right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.4))
+}
+
+#container {
+    margin: 15px !important;
+}
+
+img:hover {
+    transform: scale(1.5)
+}
+
+p {
+    letter-spacing: .1rem;
+    font-size: 1.1rem;
+}
+
+h2:hover {
+    color: blue
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+li {
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+}
+
+.info td {
+    padding: 10px;
+}
+
+td {
+    font-size: 1.1rem;
+    letter-spacing: .1rem;
+}
+
+.title {
+    font-size: xx-large;
+}
+
+.header {
+    align-items: center;
+    position: sticky;
+    list-style-type: none;
+    height: 50px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background:
+        linear-gradient(to bottom,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.4));
+    background-color: #b9b9b9;
+
+}
+a { 
+    text-decoration: none; 
+    color: blue;
+}
+.header li {
+    padding-left: 10px;
+    padding-top: 5px;
+    display: inline;
+    align-self: center;
+}
+
+
+
+.footer {
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    margin: 0px !important;
+    background:
+        linear-gradient(to bottom,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.4));
+    background-color: #b9b9b9;
+}
+.anchor{
+    display: block;
+    height: 115px;
+    margin-top: -115px;
+    visibility: hidden;
+  }
+
+.name{
+    font-size: 2rem;
+    
+}
+#copyright{
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+}
