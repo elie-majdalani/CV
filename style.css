@@ -59,7 +59,7 @@ td {
     justify-content: space-between;
     font-weight: bold;
     background:
-        linear-gradient(to bottom,
+        linear-gradient(to top left,
             rgba(0, 0, 0, 0),
             rgba(0, 0, 0, 0.4));
     background-color: #b9b9b9;
