@@ -49,6 +49,12 @@ td {
     font-size: xx-large;
 }
 
+@media only screen and (max-width: 1055px) {
+    header {
+        min-height: 90px;
+    }
+}
+
 .header {
     align-items: center;
     position: sticky;
@@ -65,10 +71,12 @@ td {
     background-color: #b9b9b9;
 
 }
-a { 
-    text-decoration: none; 
+
+a {
+    text-decoration: none;
     color: blue;
 }
+
 .header li {
     padding-left: 10px;
     padding-top: 5px;
@@ -89,18 +97,23 @@ a {
             rgba(0, 0, 0, 0.4));
     background-color: #b9b9b9;
 }
-.anchor{
+
+.anchor {
     display: block;
     height: 115px;
     margin-top: -115px;
     visibility: hidden;
-  }
-
-.name{
-    font-size: 2rem;
-    
 }
-#copyright{
+
+.name {
+    font-size: 2rem;
+}
+.name span{
+    font-size: 2.5rem;
+    color: red;
+}
+
+#copyright {
     margin-left: auto;
     margin-right: auto;
     align-self: center;
